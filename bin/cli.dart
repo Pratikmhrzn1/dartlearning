@@ -29,7 +29,7 @@ void searchWikipedia(List<String>?arguments)async{
   }
   print("Are you looking for articles about $articleTitle? Please hold!");
   print("Here we go");
-  print('(hehe)');
+  print('(Brief json file)');
   var articleContent= await getWikipediaArticle(articleTitle);
   print(articleContent);
 }
